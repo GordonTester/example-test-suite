@@ -1,0 +1,4 @@
+- Clone Repo
+- Navigate to repo folder via Terminal
+- Install all dependencies : yarn
+- Open tests : yarn cypress open

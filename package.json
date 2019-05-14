@@ -1,0 +1,30 @@
+{
+  "name": "example-test-suite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GordonTester/example-test-suite.git",
+  "author": "Gordon Graham",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cypress": "^3.2.0",
+    "cypress-cucumber-preprocessor": "^1.11.0",
+    "eslint": "^5.16.0",
+    "chai": "^4.1.2",
+    "chokidar": "^2.0.4",
+    "cosmiconfig": "^4.0.0",
+    "cucumber": "^4.2.1",
+    "cucumber-expressions": "^6.0.1",
+    "cucumber-tag-expressions": "^1.1.1",
+    "debug": "^3.0.1",
+    "gherkin": "^5.1.0",
+    "glob": "^7.1.2",
+    "through": "^2.3.8",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-cypress": "^2.2.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

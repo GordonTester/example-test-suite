@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://www.google.com",
+    "env": {
+    },
+    "ignoreTestFiles": "*.js",
+    "defaultCommandTimeout": 45000,
+    "pageLoadTimeout": 90000,
+    "viewportWidth": 1400,
+    "viewportHeight": 1025,
+    "trashAssetsBeforeRuns": false,
+    "chromeWebSecurity": false,
+    "projectId": "test"
+  }
